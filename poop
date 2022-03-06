@@ -19,7 +19,7 @@ library.theme = {
 	background = "rbxassetid://6880496154",
 	backgroundcolor = Color3.fromRGB(20, 20, 20),
 	tabstextcolor = Color3.fromRGB(230, 230, 230),
-	bordercolor = Color3.fromRGB(255, 130, 130),
+	bordercolor = Color3.fromRGB(255, 0, 0),
 	accentcolor = Color3.fromRGB(255, 0, 0),
 	accentcolor2 = Color3.fromRGB(124, 0, 0),
 	outlinecolor = Color3.fromRGB(60, 60, 60),
@@ -81,7 +81,7 @@ function library:CreateWatermark(name)
 
 	watermark.label = Instance.new("TextLabel", watermark.mainbar)
 	watermark.label.Name = "FPSLabel"
-	watermark.label.BackgroundColor3 = Color3.fromRGB(251, 125, 255)
+	watermark.label.BackgroundColor3 = Color3.fromRGB(255, 20, 20)
 	watermark.label.BackgroundTransparency = 1.000
 	watermark.label.Position = UDim2.new(-0.00268030656, 0, 0, 0)
 	watermark.label.Size = UDim2.new(0, 238, 0, 25)
@@ -89,7 +89,7 @@ function library:CreateWatermark(name)
 	watermark.label.ZIndex = 6
 	watermark.label.Visible = watermark.Visible
 	watermark.label.Text = " ".. name .." | ".. gamename .." | 0 FPS"
-	watermark.label.TextColor3 = Color3.fromRGB(255, 176, 234)
+	watermark.label.TextColor3 = Color3.fromRGB(255, 75, 20)
 	watermark.label.TextSize = 15.000
 	watermark.label.TextStrokeTransparency = 0.000
 	watermark.label.TextXAlignment = Enum.TextXAlignment.Left
